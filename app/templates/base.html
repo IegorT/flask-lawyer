@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{title}} - (Site name)</title>
+    {% else %}
+    <title>(Site name)</title>
+    {% endif %}
+
+
+</head>
+<body>
+
+    {% include 'header.html' %}
+    {% block content %}{% endblock %}
+    {% include 'footer.html' %}
+</body>
+</html>

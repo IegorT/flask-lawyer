@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    {% with msgs = get_flashed_messages() %}
+        {% if msgs %}
+          {%- for msg in msgs %}
+            <h1 style="color:red;"> {{ msg }} </h1>
+          {% endfor -%}
+        {% endif %}
+      {% endwith %}
+
+    <h1>{{ title }}</h1>
+
+    <form method="post">
+        {{ _('Name') }}:<br>
+        <input type="text" name="name" required><br>
+        {{ _('Telephone') }}:<br>
+        <input type="phone" name="phone" required><br>
+        {{ _('e-mail') }}:<br>
+        <input type="email" name="email"><br>
+        {{ _('Message') }}:<br>
+        <textarea name="message" cols="60" rows="10" required></textarea><br>
+        <input type="checkbox" name="bot" value="yes" hidden>
+        <input type="submit" value={{ _("Send") }}>
+    </form>
+{% endblock %}

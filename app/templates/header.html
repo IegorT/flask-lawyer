@@ -1,0 +1,13 @@
+<div>
+    <span>{% for local in [('uk', _('UA')), ('en', _('EN')), ('ru', _('RU'))] %}
+        <a href="{{url_for(request.endpoint, lang_code=local[0], _external = True)}}">{{ (local[1]) }}</a>{% endfor %}
+    </span>
+    <nav>
+        {% for text in [('index', _('Home')), ('price', _('Price')), ('about', _('About')), ('faq', _('FAQ')), ('contacts', _('Contacts'))] %}
+            <li {%- if request.endpoint == text[0] %} class="active"{% endif %}>
+            <a href="{{ url_for(text[0], lang_code =  lang_code, _external = True) }}">{{ ( text[1] ) }}</a>
+            </li>
+        {% endfor %}
+
+    </nav>
+</div>

@@ -1,0 +1,102 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-07-25 01:06+0300\n"
+"PO-Revision-Date: 2017-07-25 01:06+0300\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: app/templates/header.html:6 app/view.py:30
+msgid "Home"
+msgstr "Домашняя"
+
+#: app/templates/header.html:6 app/view.py:36
+msgid "Price"
+msgstr "Цена"
+
+#: app/templates/header.html:6 app/view.py:42
+msgid "About"
+msgstr "Обо мне"
+
+#: app/templates/header.html:6 app/view.py:48
+msgid "FAQ"
+msgstr "Вопросы"
+
+#: app/view.py:63
+msgid "Your message has been send. Thank you!"
+msgstr "Ваше сообщение отправлено. Спасибо!"
+
+#: app/templates/header.html:6 app/view.py:65
+msgid "Contacts"
+msgstr "Контакты"
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Страница не найдена"
+
+#: app/templates/500.html:5
+msgid "Internal Server Error"
+msgstr "Внутренняя ошибка сервера"
+
+#: app/templates/contacts.html:16
+msgid "Name"
+msgstr "Имя"
+
+#: app/templates/contacts.html:18
+msgid "Telephone"
+msgstr "Телефон"
+
+#: app/templates/contacts.html:20
+msgid "e-mail"
+msgstr "Электронная почта"
+
+#: app/templates/contacts.html:22
+msgid "Message"
+msgstr "Сообщение"
+
+#: app/templates/contacts.html:25
+msgid "Send"
+msgstr "Отправить"
+
+#: app/templates/header.html:2
+msgid "UA"
+msgstr "УКР"
+
+#: app/templates/header.html:2
+msgid "EN"
+msgstr "АНГЛ"
+
+#: app/templates/header.html:2
+msgid "RU"
+msgstr "РУС"
+
+#~ msgid "Home"
+#~ msgstr "Домашняя"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
+
+#~ msgid "About"
+#~ msgstr "Обо мне"
+
+#~ msgid "FAQ"
+#~ msgstr "Вопросы"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакты"
+
+#~ msgid "Message send"
+#~ msgstr ""
